@@ -1,0 +1,52 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="Base.Theme.AllNewCeritaku" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+    </style>
+
+    <style name="Theme.AllNewCeritaku" parent="Base.Theme.AllNewCeritaku" />
+
+    <!--Bottom navigation view-->
+    <style name="BottomNavigationView">
+        <item name="itemTextAppearanceActive">@style/TextAppearance.BottomNavigationView.Active</item>
+        <item name="itemTextAppearanceInactive">@style/TextAppearance.BottomNavigationView.Inactive</item>
+    </style>
+
+    <style name="TextAppearance" />
+
+    <style name="TextAppearance.BottomNavigationView" />
+
+    <style name="TextAppearance.BottomNavigationView.Inactive">
+        <item name="android:textSize">12sp</item>
+        <item name="fontFamily">sans-serif-medium</item>
+        <item name="colorPrimary">@color/purple_700</item>
+    </style>
+
+    <style name="TextAppearance.BottomNavigationView.Active">
+        <item name="android:textSize">12sp</item>
+        <item name="fontFamily">sans-serif-medium</item>
+        <item name="colorPrimary">@color/purple_700</item>
+        <item name="colorPrimaryDark">@color/purple_500</item>
+        <item name="colorAccent">@color/purple_700</item>
+    </style>
+    <!--End of bottom navigation view-->
+
+    <!--Splash Screen-->
+    <style name="Theme.App.Starting" parent="Theme.SplashScreen">
+        <!-- Set the splash screen background, animated icon, and animation
+        duration. -->
+        <item name="windowSplashScreenBackground">@color/purple_700</item>
+
+        <!-- Use windowSplashScreenAnimatedIcon to add a drawable or an animated
+             drawable. One of these is required. -->
+        <item name="windowSplashScreenAnimatedIcon">@drawable/ic_outline_add_story</item>
+        <!-- Required for animated icons. -->
+        <item name="windowSplashScreenAnimationDuration">2000</item>
+
+        <!-- Set the theme of the Activity that directly follows your splash
+        screen. This is required. -->
+        <item name="postSplashScreenTheme">@style/Base.Theme.AllNewCeritaku</item>
+    </style>
+    <!--End of Splash Screen-->
+</resources>
