@@ -1,4 +1,4 @@
-package com.taufikhidayat.allnewceritaku
+package com.taufikhidayat.ceritakan
 
 import org.junit.Test
 

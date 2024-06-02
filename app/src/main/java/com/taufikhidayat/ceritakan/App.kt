@@ -1,4 +1,4 @@
-package com.taufikhidayat.allnewceritaku
+package com.taufikhidayat.ceritakan
 
 import android.app.Application
 import dagger.hilt.android.HiltAndroidApp
