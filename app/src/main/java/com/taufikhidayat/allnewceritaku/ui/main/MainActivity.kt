@@ -54,7 +54,9 @@ class MainActivity : AppCompatActivity() {
         navController?.addOnDestinationChangedListener(navControllerDestination)
     }
 
-    private fun showBottomNavigation(isShow: Boolean) = binding.navBottom.isVisible == isShow
+    private fun showBottomNavigation(isShow: Boolean) {
+        binding.navBottom.isVisible = isShow
+    }
 
     override fun onDestroy() {
         navController?.removeOnDestinationChangedListener(navControllerDestination)
