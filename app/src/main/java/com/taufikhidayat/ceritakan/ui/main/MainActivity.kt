@@ -1,4 +1,4 @@
-package com.taufikhidayat.allnewceritaku.ui.main
+package com.taufikhidayat.ceritakan.ui.main
 
 import android.os.Bundle
 import androidx.activity.enableEdgeToEdge
@@ -11,8 +11,8 @@ import androidx.navigation.NavController
 import androidx.navigation.fragment.NavHostFragment
 import androidx.navigation.fragment.findNavController
 import androidx.navigation.ui.setupWithNavController
-import com.taufikhidayat.allnewceritaku.R
-import com.taufikhidayat.allnewceritaku.databinding.ActivityMainBinding
+import com.taufikhidayat.ceritakan.R
+import com.taufikhidayat.ceritakan.databinding.ActivityMainBinding
 import dagger.hilt.android.AndroidEntryPoint
 
 @AndroidEntryPoint

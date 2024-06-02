@@ -1,11 +1,11 @@
-package com.taufikhidayat.allnewceritaku.ui.about
+package com.taufikhidayat.ceritakan.ui.about
 
 import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.fragment.app.Fragment
-import com.taufikhidayat.allnewceritaku.databinding.FragmentAboutBinding
+import com.taufikhidayat.ceritakan.databinding.FragmentAboutBinding
 import dagger.hilt.android.AndroidEntryPoint
 
 @AndroidEntryPoint

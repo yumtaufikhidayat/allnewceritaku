@@ -7,30 +7,30 @@
 
     <fragment
         android:id="@+id/nav_welcome"
-        android:name="com.taufikhidayat.allnewceritaku.ui.welcome.WelcomeFragment"
+        android:name="com.taufikhidayat.ceritakan.ui.welcome.WelcomeFragment"
         android:label="Welcome"
         tools:layout="@layout/fragment_welcome" />
 
     <fragment
         android:id="@+id/nav_home"
-        android:name="com.taufikhidayat.allnewceritaku.ui.home.HomeFragment"
+        android:name="com.taufikhidayat.ceritakan.ui.home.HomeFragment"
         android:label="Home"
         tools:layout="@layout/fragment_home" />
 
     <fragment
         android:id="@+id/nav_add_story"
-        android:name="com.taufikhidayat.allnewceritaku.ui.story.AddStoryFragment"
+        android:name="com.taufikhidayat.ceritakan.ui.story.AddStoryFragment"
         android:label="Add Story"
         tools:layout="@layout/fragment_add_story" />
 
     <fragment
         android:id="@+id/nav_about"
-        android:name="com.taufikhidayat.allnewceritaku.ui.about.AboutFragment"
+        android:name="com.taufikhidayat.ceritakan.ui.about.AboutFragment"
         android:label="About"
         tools:layout="@layout/fragment_about" />
     <fragment
         android:id="@+id/detailFragment"
-        android:name="com.taufikhidayat.allnewceritaku.ui.detail.DetailFragment"
+        android:name="com.taufikhidayat.ceritakan.ui.detail.DetailFragment"
         android:label="Detail"
         tools:layout="@layout/fragment_detail" />
 </navigation>

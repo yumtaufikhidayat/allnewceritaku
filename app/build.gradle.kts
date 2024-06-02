@@ -7,7 +7,7 @@ plugins {
 }
 
 android {
-    namespace = "com.taufikhidayat.allnewceritaku"
+    namespace = "com.taufikhidayat.ceritakan"
     compileSdk = 34
 
     packaging {
