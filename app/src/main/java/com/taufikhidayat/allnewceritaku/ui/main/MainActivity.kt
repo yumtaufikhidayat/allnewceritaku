@@ -22,6 +22,7 @@ class MainActivity : AppCompatActivity() {
     private var navController: NavController? = null
     private val navControllerDestination = NavController.OnDestinationChangedListener { _, destination, _ ->
         when (destination.id) {
+            R.id.nav_welcome -> showBottomNavigation(false)
             R.id.detailFragment -> showBottomNavigation(false)
             else -> showBottomNavigation(true)
         }
@@ -53,7 +54,9 @@ class MainActivity : AppCompatActivity() {
         navController?.addOnDestinationChangedListener(navControllerDestination)
     }
 
-    private fun showBottomNavigation(isShow: Boolean) = binding.navBottom.isVisible == isShow
+    private fun showBottomNavigation(isShow: Boolean) {
+        binding.navBottom.isVisible = isShow
+    }
 
     override fun onDestroy() {
         navController?.removeOnDestinationChangedListener(navControllerDestination)

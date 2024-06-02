@@ -1,9 +1,69 @@
 <resources>
-    <string name="app_name">AllNewCeritaku</string>
+    <string name="app_name">Ceritakan</string>
+    <string name="app_version">1.0</string>
     <string name="hello_blank_fragment">Hello blank fragment</string>
 
+    <!--Menu-->
     <string name="tvHome">Beranda</string>
     <string name="tvMaps">Peta</string>
     <string name="tvAddStory">Tambah Cerita</string>
     <string name="tvAbout">Tentang</string>
+
+    <string name="text_bg">Background</string>
+    <string name="text_welcome">Selamat datang </string>
+    <string name="text_welcome_alt">Selamat datang,</string>
+    <string name="text_hi_welcome">Halo, selamat datang di Ceritaku!.</string>
+    <string name="text_description">Di Ceritaku, kamu bisa loh membagikan pengalaman menyenangkanmu belajar bersama Dicoding.
+        Mau belajar Android, iOS, Machine Learning, Cloud, Front-End, Back-End, dan bidang IT lainnya? Di Dicoding aja.
+        Yuk ceritakan dan bagikan pengalaman belajarmu.</string>
+    <string name="text_login">Siap untuk berbagi cerita pengalaman belajarmu?</string>
+    <string name="text_message_login">Masukkan data kamu terlebih dahulu ya!</string>
+    <string name="text_message_signup">Lengkapi data dirimu di bawah ini dahulu ya!</string>
+    <string name="text_name">Nama</string>
+    <string name="text_name_eg">John Doe</string>
+    <string name="text_email">Email</string>
+    <string name="text_email_eg">johndoe@email.com</string>
+    <string name="text_password">Password</string>
+    <string name="text_search">Cari cerita sukses…</string>
+    <string name="text_have_account">Sudah punya akun? <font fgcolor="#FF3700B3">Masuk</font></string>
+    <string name="text_do_not_have_account">Belum punya akun? <font fgcolor="#FF3700B3">Daftar</font></string>
+    <string name="text_exit">Apakah kamu yakin ingin keluar?</string>
+    <string name="text_your_story">Cerita kamu</string>
+    <string name="text_register_waiting_message">Mohon menunggu. Akunmu sedang didaftarkan…</string>
+    <string name="text_register_success">Pendaftaran akunmu berhasil. Yuk login dan berbagi pengalaman belajarmu.</string>
+    <string name="text_register_failed">Pendaftaran akunmu gagal. Nama atau email sudah terdaftar. Silakan mencoba kembali.</string>
+    <string name="text_upload_success">Berhasil menambahkan cerita.</string>
+    <string name="text_story">Story</string>
+    <string name="text_date">Tanggal</string>
+    <string name="text_detail">Detail</string>
+    <string name="text_uploaded_on">Diunggah</string>
+    <string name="text_uploaded_image">Foto unggahan</string>
+    <string name="text_description_upload_title">Deskripsi</string>
+    <string name="text_description_upload">Tuliskan cerita suksesmu disini.</string>
+    <string name="text_add_story">Tambah Cerita</string>
+    <string name="text_insert_image_first">Silakan masukkan berkas gambar terlebih dahulu</string>
+    <string name="text_no_favorite">Oops.. \nKamu belum menyimpan data favorit</string>
+    <string name="text_no_search">Oops.. \nTidak ada hasil</string>
+    <string name="text_retry">Coba lagi</string>
+    <string name="text_maps">Peta Lokasi</string>
+    <string name="text_info_image">Info gambar</string>
+    <string name="text_location">Lokasi:</string>
+    <string name="text_permission_not_granted">Tidak ada izin yang diberikan </string>
+
+    <string name="action_camera">Kamera</string>
+    <string name="action_gallery">Galeri</string>
+    <string name="action_signup">Daftar</string>
+    <string name="action_login">Masuk</string>
+    <string name="action_show_password">Tampilkan password</string>
+    <string name="action_exit">Keluar</string>
+    <string name="action_yes">Ya</string>
+    <string name="action_no">Tidak</string>
+    <string name="action_add_story">Tambah Cerita</string>
+    <string name="action_close">Tutup</string>
+    <string name="action_upload">Unggah</string>
+    <string name="action_favorite">Favorit</string>
+    <string name="action_normal_type">Normal</string>
+    <string name="action_satellite_type">Satellite</string>
+    <string name="action_terrain_type">Terrain</string>
+    <string name="action_hybrid_type">Hybrid</string>
 </resources>
