@@ -53,7 +53,7 @@
     <string name="action_camera">Kamera</string>
     <string name="action_gallery">Galeri</string>
     <string name="action_signup">Daftar</string>
-    <string name="action_login">Masuk</string>
+    <string name="action_start">Mulai</string>
     <string name="action_show_password">Tampilkan password</string>
     <string name="action_exit">Keluar</string>
     <string name="action_yes">Ya</string>
