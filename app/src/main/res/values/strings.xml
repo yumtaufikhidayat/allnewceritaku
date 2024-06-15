@@ -21,9 +21,9 @@
     <string name="text_message_signup">Lengkapi data dirimu di bawah ini dahulu ya!</string>
     <string name="text_name">Nama</string>
     <string name="text_name_eg">John Doe</string>
-    <string name="text_email">Email</string>
+    <string name="text_email">Surel</string>
     <string name="text_email_eg">johndoe@email.com</string>
-    <string name="text_password">Password</string>
+    <string name="text_password">Kata Sandi</string>
     <string name="text_search">Cari cerita sukses…</string>
     <string name="text_have_account">Sudah punya akun? <font fgcolor="#FF3700B3">Masuk</font></string>
     <string name="text_do_not_have_account">Belum punya akun? <font fgcolor="#FF3700B3">Daftar</font></string>
@@ -49,12 +49,17 @@
     <string name="text_info_image">Info gambar</string>
     <string name="text_location">Lokasi:</string>
     <string name="text_permission_not_granted">Tidak ada izin yang diberikan </string>
+    <string name="text_enter_password">Masukkan kata sandi</string>
+    <string name="text_login_desc">Masuk untuk melanjutkan</string>
+    <string name="text_register_desc">Daftar akun sebelum melanjutkan</string>
 
+    <string name="action_login">Masuk</string>
+    <string name="action_register">Daftar</string>
     <string name="action_camera">Kamera</string>
     <string name="action_gallery">Galeri</string>
     <string name="action_signup">Daftar</string>
     <string name="action_start">Mulai</string>
-    <string name="action_show_password">Tampilkan password</string>
+    <string name="action_show_password">Tampilkan kata sandi</string>
     <string name="action_exit">Keluar</string>
     <string name="action_yes">Ya</string>
     <string name="action_no">Tidak</string>
@@ -66,4 +71,11 @@
     <string name="action_satellite_type">Satellite</string>
     <string name="action_terrain_type">Terrain</string>
     <string name="action_hybrid_type">Hybrid</string>
+
+    <string name="validation_name_empty">Nama pengguna tidak boleh kosong</string>">
+    <string name="validation_email_empty">Surel tidak boleh kosong</string>">
+    <string name="validation_email">Surel invalid</string>">
+    <string name="validation_password_empty">Kata sandi tidak boleh kosong</string>
+    <string name="validation_password">Kata sandi setidaknya 8 karakter</string>
+
 </resources>
