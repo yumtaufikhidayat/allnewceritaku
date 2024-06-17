@@ -20,9 +20,7 @@
     <string name="text_message_login">Masukkan data kamu terlebih dahulu ya!</string>
     <string name="text_message_signup">Lengkapi data dirimu di bawah ini dahulu ya!</string>
     <string name="text_name">Nama</string>
-    <string name="text_name_eg">John Doe</string>
     <string name="text_email">Surel</string>
-    <string name="text_email_eg">johndoe@email.com</string>
     <string name="text_password">Kata Sandi</string>
     <string name="text_search">Cari cerita sukses…</string>
     <string name="text_have_account">Sudah punya akun? <font fgcolor="#FF3700B3">Masuk</font></string>
