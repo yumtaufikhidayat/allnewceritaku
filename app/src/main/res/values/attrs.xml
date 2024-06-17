@@ -1,0 +1,6 @@
+<resources>
+    <declare-styleable name="MaterialTextInputEditTextPassword">
+        <attr name="drawableStartIcon" format="reference"/>
+        <attr name="drawableStartPadding" format="dimension"/>
+    </declare-styleable>
+</resources>
