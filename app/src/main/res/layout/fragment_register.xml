@@ -51,7 +51,6 @@
         android:drawablePadding="@dimen/value_8dp"
         android:padding="@dimen/value_8dp"
         android:background="@drawable/bg_edit_text"
-        android:hint="@string/text_name_eg"
         android:textSize="@dimen/value_14sp"
         android:inputType="textEmailAddress"
         android:imeOptions="actionNext"
@@ -81,7 +80,6 @@
         android:drawablePadding="@dimen/value_8dp"
         android:padding="@dimen/value_8dp"
         android:background="@drawable/bg_edit_text"
-        android:hint="@string/text_email_eg"
         android:textSize="@dimen/value_14sp"
         android:inputType="textEmailAddress"
         android:imeOptions="actionNext"
@@ -108,12 +106,15 @@
         android:layout_height="wrap_content"
         android:layout_centerInParent="true"
         app:errorEnabled="true"
+        app:hintEnabled="true"
+        android:hint="@string/text_password"
         app:layout_constraintTop_toBottomOf="@id/tvPassword"
         app:layout_constraintStart_toStartOf="@id/tvEmail"
         app:layout_constraintEnd_toEndOf="@id/etEmail">
 
         <com.taufikhidayat.ceritakan.ui.common.customview.MaterialTextInputEditTextPassword
             android:id="@+id/etPassword"
+            style="@style/CenteredHintEditTextStyle"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:drawablePadding="@dimen/value_min_8dp"

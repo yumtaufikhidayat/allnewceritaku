@@ -50,7 +50,6 @@
         android:drawablePadding="@dimen/value_8dp"
         android:padding="@dimen/value_8dp"
         android:background="@drawable/bg_edit_text"
-        android:hint="@string/text_email_eg"
         android:textSize="@dimen/value_14sp"
         android:inputType="textEmailAddress"
         android:imeOptions="actionNext"
