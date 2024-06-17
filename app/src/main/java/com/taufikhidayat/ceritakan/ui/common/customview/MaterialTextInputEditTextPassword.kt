@@ -2,6 +2,7 @@ package com.taufikhidayat.ceritakan.ui.common.customview
 
 import android.content.Context
 import android.graphics.Canvas
+import android.graphics.Typeface
 import android.graphics.drawable.Drawable
 import android.text.Editable
 import android.text.InputType
@@ -41,6 +42,7 @@ class MaterialTextInputEditTextPassword(context: Context, attrs: AttributeSet) :
         toggleDrawable = ContextCompat.getDrawable(context, R.drawable.ic_visibility_off)
         setCompoundDrawablesRelativeWithIntrinsicBounds(startDrawable, null, toggleDrawable, null)
         compoundDrawablePadding = resources.getDimensionPixelSize(R.dimen.value_2dp)
+        setTypeface(Typeface.DEFAULT)
 
         setOnTouchListener { v, event ->
             if (event.action == MotionEvent.ACTION_UP && event.rawX >= (right - toggleDrawable?.bounds?.width()!!)) {
@@ -55,12 +57,11 @@ class MaterialTextInputEditTextPassword(context: Context, attrs: AttributeSet) :
     private fun validatePassword(s: Editable?) {
         val parent = parent.parent as? TextInputLayout
         when {
-            s.isNullOrEmpty() -> parent?.error =
-                context.getString(R.string.validation_password_empty)
-
+            s.isNullOrEmpty() -> parent?.error = context.getString(R.string.validation_password_empty)
             s.length < 8 -> parent?.error = context.getString(R.string.validation_password)
             else -> parent?.error = null
         }
+        setTypeface(Typeface.DEFAULT)
         setCompoundDrawablesRelativeWithIntrinsicBounds(startDrawable, null, toggleDrawable, null)
     }
 
