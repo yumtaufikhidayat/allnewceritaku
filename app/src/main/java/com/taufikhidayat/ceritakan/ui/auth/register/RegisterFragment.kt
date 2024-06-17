@@ -1,7 +1,6 @@
 package com.taufikhidayat.ceritakan.ui.auth.register
 
 import android.os.Bundle
-import android.text.InputType
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
@@ -43,23 +42,7 @@ class RegisterFragment : Fragment() {
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
-        showCbPassword()
         validateInput()
-    }
-
-    private fun showCbPassword() = binding.apply {
-        cbShowPassword.setOnCheckedChangeListener { _, isChecked ->
-            val start = etPassword.selectionStart
-            val end = etPassword.selectionEnd
-            val currentTypeface = etPassword.typeface
-
-            etPassword.inputType = (if (isChecked)
-                InputType.TYPE_CLASS_TEXT or InputType.TYPE_TEXT_VARIATION_VISIBLE_PASSWORD
-            else
-                InputType.TYPE_CLASS_TEXT or InputType.TYPE_TEXT_VARIATION_PASSWORD)
-            etPassword.typeface = currentTypeface
-            etPassword.setSelection(start, end)
-        }
     }
 
     private fun validateInput() = binding.apply {

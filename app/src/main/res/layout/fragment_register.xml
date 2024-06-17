@@ -2,6 +2,7 @@
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/root"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".ui.auth.register.RegisterFragment">
@@ -101,32 +102,30 @@
         app:layout_constraintTop_toBottomOf="@+id/etEmail"
         app:layout_constraintStart_toStartOf="@id/tvEmail"/>
 
-    <com.taufikhidayat.ceritakan.ui.common.customview.MaterialEditTextPassword
-        android:id="@+id/etPassword"
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/tetPassword"
         android:layout_width="@dimen/value_0dp"
         android:layout_height="wrap_content"
-        android:layout_marginTop="@dimen/value_8dp"
-        android:drawableStart="@drawable/ic_password"
-        android:drawablePadding="@dimen/value_8dp"
-        android:padding="@dimen/value_8dp"
-        android:background="@drawable/bg_edit_text"
-        android:hint="@string/text_password"
-        android:textSize="@dimen/value_14sp"
-        android:inputType="textPassword"
-        android:imeOptions="actionDone"
-        android:autofillHints="password"
+        android:layout_centerInParent="true"
+        app:errorEnabled="true"
         app:layout_constraintTop_toBottomOf="@id/tvPassword"
         app:layout_constraintStart_toStartOf="@id/tvEmail"
-        app:layout_constraintEnd_toEndOf="@id/etEmail"/>
+        app:layout_constraintEnd_toEndOf="@id/etEmail">
 
-    <CheckBox
-        android:id="@+id/cbShowPassword"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/action_show_password"
-        app:layout_constraintTop_toBottomOf="@id/etPassword"
-        app:layout_constraintStart_toStartOf="@id/etEmail"
-        app:layout_constraintEnd_toEndOf="@id/etEmail"/>
+        <com.taufikhidayat.ceritakan.ui.common.customview.MaterialTextInputEditTextPassword
+            android:id="@+id/etPassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawablePadding="@dimen/value_min_8dp"
+            android:padding="@dimen/value_8dp"
+            android:imeOptions="actionDone"
+            android:autofillHints="password"
+            android:background="@drawable/bg_edit_text"
+            android:inputType="textPassword"
+            app:drawableStartIcon="@drawable/ic_password"
+            app:drawableStartPadding="@dimen/value_2dp" />
+
+    </com.google.android.material.textfield.TextInputLayout>
 
     <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/btnRegister"
@@ -139,7 +138,7 @@
         android:background="@drawable/bg_button_disable"
         app:cornerRadius="@dimen/value_100dp"
         app:layout_constraintVertical_bias=".1"
-        app:layout_constraintTop_toBottomOf="@id/cbShowPassword"
+        app:layout_constraintTop_toBottomOf="@id/tetPassword"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="@id/etEmail"
         app:layout_constraintEnd_toEndOf="@id/etEmail"/>

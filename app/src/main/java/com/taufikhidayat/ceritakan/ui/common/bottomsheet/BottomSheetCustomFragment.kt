@@ -41,11 +41,9 @@ class BottomSheetCustomFragment : BottomSheetDialogFragment() {
         // init style
         setStyle(STYLE_NORMAL, R.style.CustomBottomSheetDialogThemeInput)
 
-        val bottomSheet =
-            dialog?.findViewById<FrameLayout>(com.google.android.material.R.id.design_bottom_sheet)
+        val bottomSheet = dialog?.findViewById<FrameLayout>(com.google.android.material.R.id.design_bottom_sheet)
         bottomSheet?.let {
-            it.background =
-                ContextCompat.getDrawable(requireContext(), R.drawable.bg_rounded_dialog)
+            it.background = ContextCompat.getDrawable(requireContext(), R.drawable.bg_rounded_dialog)
         }
 
         val behavior = bottomSheet?.let { BottomSheetBehavior.from(it) }
