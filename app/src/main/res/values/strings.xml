@@ -12,8 +12,8 @@
     <string name="text_bg">Background</string>
     <string name="text_welcome">Selamat datang </string>
     <string name="text_welcome_alt">Selamat datang,</string>
-    <string name="text_hi_welcome">Halo, selamat datang di Ceritaku!.</string>
-    <string name="text_description">Di Ceritaku, kamu bisa loh membagikan pengalaman menyenangkanmu belajar bersama Dicoding.
+    <string name="text_hi_welcome">Halo, selamat datang di Ceritakan!.</string>
+    <string name="text_description">Di Ceritakan, kamu bisa loh membagikan pengalaman menyenangkanmu belajar bersama Dicoding.
         Mau belajar Android, iOS, Machine Learning, Cloud, Front-End, Back-End, dan bidang IT lainnya? Di Dicoding aja.
         Yuk ceritakan dan bagikan pengalaman belajarmu.</string>
     <string name="text_login">Siap untuk berbagi cerita pengalaman belajarmu?</string>
